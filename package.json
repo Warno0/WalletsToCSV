@@ -1,0 +1,19 @@
+{
+  "name": "wallettocsv",
+  "version": "1.0.0",
+  "description": "Generate Ethereum wallets and store them into a CSV file",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Warno",
+  "license": "ISC",
+  "bin": {
+    "WalletsToCSV": "./bin/index.js"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "ethers": "^5.6.2",
+    "yargs": "13.2"
+  }
+}
