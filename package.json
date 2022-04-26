@@ -9,7 +9,7 @@
   "author": "Warno",
   "license": "ISC",
   "bin": {
-    "WalletsToCSV": "./bin/index.js"
+    "walletsgen": "./bin/index.js"
   },
   "dependencies": {
     "csv-writer": "^1.6.0",
